@@ -9,10 +9,11 @@
 
 using System.Collections.Generic;
 using MathNet.Numerics.Distributions;
+using MyStatLib;
 
 namespace SimpleStat1
 {
-    public class TNormDistr : TRandGen
+    public class TNormDistr : TRandGen, IGenerateSample
     {
         public double mean { get; set; } = 0;
         public double sd { get; set; } = 1;
@@ -21,25 +22,27 @@ namespace SimpleStat1
 
         public int Volume { get; set; } = 1000;
 
-        public void GenerateSample(out double[] c)
+        #region IGenerateSample
+
+        public virtual void GenerateSample(out double[] c)
         {
             Volume = Volume < 3 ? 3 : Volume;
             c = new double[Volume];
             Normal.Samples(rng,c, mean, sd);
         }
-        public void GenerateSample(int volume,out double[] c)
+        public virtual void GenerateSample(int volume,out double[] c)
         {
             Volume = volume;
             GenerateSample(out c);
         }
 
-        public List<double> GenerateSample()
+        public virtual List<double> GenerateSample()
         {
             double[] c;
             GenerateSample(out c);
             return new List<double>(c);
         }
-        public List<double> GenerateSample(int volume)
+        public virtual List<double> GenerateSample(int volume)
         {
             Volume = volume;
             double[] c;
@@ -47,5 +50,6 @@ namespace SimpleStat1
             return new List<double>(c);
         }
 
+        #endregion
     }
 }
