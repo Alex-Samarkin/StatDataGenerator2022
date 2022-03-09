@@ -42,6 +42,7 @@ namespace SimpleStat1
             }
         }
 
+        public int Volume { get; set; } = 1000;
         public double NextDouble => rng.NextDouble();
         public int MinInt { get; set; } = 0;
         public int MaxInt { get; set; } = 100;

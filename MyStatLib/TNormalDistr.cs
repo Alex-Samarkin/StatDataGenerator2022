@@ -20,7 +20,8 @@ namespace SimpleStat1
 
         public double NextNormal => Normal.Sample(rng, mean, sd);
 
-        public int Volume { get; set; } = 1000;
+        // moved to TRandGen
+        //public int Volume { get; set; } = 1000;
 
         #region IGenerateSample
 
