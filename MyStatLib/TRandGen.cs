@@ -24,6 +24,11 @@ namespace SimpleStat1
             // rng = new SystemRandomSource(Seed);
             rng = new MersenneTwister(Seed);
         }
+        public void Reset(int newSeed)
+        {
+            Seed = newSeed;
+            Reset();
+        }
 
         public void ResetInt(int Cycles)
         {

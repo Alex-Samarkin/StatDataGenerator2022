@@ -52,6 +52,7 @@
     <Compile Include="Properties\TBiModalNormDistr.cs" />
     <Compile Include="TDiapason.cs" />
     <Compile Include="TExpDistr.cs" />
+    <Compile Include="TFromListDistr.cs" />
     <Compile Include="TNormalDistr.cs" />
     <Compile Include="TPoissonDistr.cs" />
     <Compile Include="TRandGen.cs" />
