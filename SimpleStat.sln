@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStat3", "SimpleStat3\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStat14", "SimpleStat14\SimpleStat14.csproj", "{585632B4-79A0-4F5A-9FDB-D4987EBFC2E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStat5", "SimpleStat5\SimpleStat5.csproj", "{C7AF1D6F-DC35-4597-AA7E-57A41416600A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{585632B4-79A0-4F5A-9FDB-D4987EBFC2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{585632B4-79A0-4F5A-9FDB-D4987EBFC2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{585632B4-79A0-4F5A-9FDB-D4987EBFC2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AF1D6F-DC35-4597-AA7E-57A41416600A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AF1D6F-DC35-4597-AA7E-57A41416600A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AF1D6F-DC35-4597-AA7E-57A41416600A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AF1D6F-DC35-4597-AA7E-57A41416600A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
