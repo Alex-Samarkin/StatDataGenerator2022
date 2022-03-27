@@ -17,14 +17,14 @@ namespace SimpleStat1
         public int Seed { get; set; } = 23;
         public System.Random rng { get; set; } = new SystemRandomSource();
 
-        public void Reset()
+        public virtual void Reset()
         {
             // заменить на другой при необходимости
             // 
             // rng = new SystemRandomSource(Seed);
             rng = new MersenneTwister(Seed);
         }
-        public void Reset(int newSeed)
+        public virtual void Reset(int newSeed)
         {
             Seed = newSeed;
             Reset();

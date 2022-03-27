@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C7AF1D6F-DC35-4597-AA7E-57A41416600A}</ProjectGuid>
+    <ProjectGuid>{B71FC550-E0A5-4E93-B0D9-E6CE9A0C2259}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SimpleStat5</RootNamespace>
-    <AssemblyName>SimpleStat5</AssemblyName>
+    <RootNamespace>SimpleStat6</RootNamespace>
+    <AssemblyName>SimpleStat6</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

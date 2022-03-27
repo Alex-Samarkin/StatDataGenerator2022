@@ -56,12 +56,15 @@
     <Compile Include="TExpDistr2.cs" />
     <Compile Include="TFromListDistr.cs" />
     <Compile Include="TLogNormalDistr.cs" />
+    <Compile Include="TMultiDimDistr.cs" />
     <Compile Include="TNormalDistr.cs" />
     <Compile Include="TPoissonDistr.cs" />
     <Compile Include="TRandGen.cs" />
     <Compile Include="TShiftedExpDist.cs" />
     <Compile Include="TStudentDistr.cs" />
+    <Compile Include="TUniformDistr.cs" />
     <Compile Include="TUser.cs" />
+    <Compile Include="XYZPoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
