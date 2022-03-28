@@ -27,7 +27,7 @@ namespace MyStatLib
         public double Z
         {
             get => Data[2];
-            set => Data[3] = value;
+            set => Data[2] = value;
         }
 
         XYZPoint Move(XYZPoint vector)

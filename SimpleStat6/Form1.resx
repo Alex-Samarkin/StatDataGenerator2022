@@ -122,8 +122,8 @@
 Нажмите кнопку "Расчет"
 
 Задача
-Из продукции участка сделана выборка, объемом  N деталей и измерен контролируемый размер
-Выполнить анализ описательной статистики, используя И  электронные таблицы И специализированный статистический пакет.
+Анализатор состава жидкости получил серию данных о соддержании в ней частиц.
+Измерялись их характерный  размер, цвет и  масса.
 
 Постройте:
 Вариационный ряд и гистограмму
@@ -131,6 +131,8 @@
 Найдите дисперсию, стандартное отклонение и ассимметрию
 
 Найдите стандартную ошибку среднего и коэффициент вариации
+
+Выполните кластерный анализ данныхю Определеите количество кластеров и разделите частицы по кластерам.
 </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
@@ -192,6 +194,12 @@
     <value>True</value>
   </metadata>
   <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

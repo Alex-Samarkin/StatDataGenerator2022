@@ -35,5 +35,7 @@ namespace MyStatLib
         /// <param name="volume">объем выборки</param>
         /// <returns>список случаййных чисел</returns>
         List<double> GenerateSample(int volume);
+
+        int Volume { get; set; }
     }
 }
