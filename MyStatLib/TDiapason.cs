@@ -28,6 +28,11 @@ namespace SimpleStat1
         public double SoftMaxValue => Nomimal + TPlus+Range*KSoft;
         public double SoftRange => SoftMaxValue - SoftMinValue;
 
+        /// <summary>
+        /// проверка на попадание в диапазон
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public int Check(double value)
         {
             if (HardCheck)
@@ -42,6 +47,11 @@ namespace SimpleStat1
             return 0;
         }
 
+        /// <summary>
+        /// исправление переменной так, чтобы она попадала в диапазон
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public double Correct(double value)
         {
             int flag = Check(value);
